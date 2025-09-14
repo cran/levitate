@@ -1,4 +1,4 @@
-e3c6379fb2ec6eefd9f1aa3b1325230b *DESCRIPTION
+0bb842993cd60007d3a48ba3cc6c94c7 *DESCRIPTION
 efc23b55c3356fc9646c9f4a15371a20 *NAMESPACE
 286da894be235e6a258056ad5add50a9 *NEWS.md
 8a95353ed8ecbf20736b132adb2c107b *R/hotel_rooms.R
@@ -6,12 +6,12 @@ efc23b55c3356fc9646c9f4a15371a20 *NAMESPACE
 5271c065e46612dcba25bf5193c65495 *R/ranking.R
 5577ee6468ab12c44efc9072e5bcadfe *R/string-utils.R
 3fff3154fc8e4bb1ff45d4d0caf73364 *R/weighted.R
-7aa8ca114a4a16837ce0a90b68290f24 *README.md
-90cd126eb7999962099bebfdacc14d2c *build/vignette.rds
+2b29d9a90fbf8420a412f0a8d4f94590 *README.md
+c2c05f2cdbcc65c900b4397e0fa5c083 *build/vignette.rds
 efcc5b1546c93f6125a342269a9d5d2f *data/hotel_rooms.rda
 5ef1c709f760e647e96600f0d2c3471f *inst/doc/levitate.R
 12f04c6e80384a54ea13771d3bf078a2 *inst/doc/levitate.Rmd
-dcaf5987d5497dc3aa69f2f0f25593ee *inst/doc/levitate.html
+3bebb2c88f0a07a60a45e4af0fb6d2c1 *inst/doc/levitate.html
 9664fe5024e4f3828ebb2ede7baf8523 *inst/extdata/hotel_rooms.csv
 d37f427b894debb9988b305f59857438 *inst/figures/logo.png
 b77e965839d97d9da4953a85a49aaaab *man/default-params.Rd
@@ -36,5 +36,5 @@ a07908964d997a0c8da2d3e70c3d18a9 *man/str_tokenise.Rd
 206ec56bac4dd9977f2f40d7c88807e0 *tests/testthat/test-lev-distance.R
 180dd92d894e8f62e1a483e65e9b44a1 *tests/testthat/test-ranking.R
 8a87d153604468e1ecbe03698f2bc484 *tests/testthat/test-string-utils.R
-cc7beefdf2947c02268b6aa1ba0cd6bf *tests/testthat/test-weighted.R
+a5a70e0e68ebd84796b744ef42718e04 *tests/testthat/test-weighted.R
 12f04c6e80384a54ea13771d3bf078a2 *vignettes/levitate.Rmd

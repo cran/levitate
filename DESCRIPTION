@@ -1,7 +1,7 @@
 Type: Package
 Package: levitate
 Title: Fuzzy String Comparison
-Version: 0.2.0
+Version: 0.2.2
 Authors@R: 
     person("Lewin", "Appleton-Fox", , "lewin.a.f@gmail.com", role = c("aut", "cre", "cph"))
 Description: Provides string similarity calculations inspired by the
@@ -10,20 +10,19 @@ Description: Provides string similarity calculations inspired by the
     token matching. A range of edit distance measures are available thanks
     to the 'stringdist' package.
 License: GPL-3
-URL: https://github.com/lewinfox/levitate/,
-        https://www.lewinfox.com/levitate/
+URL: https://lewinfox.com/levitate/
 BugReports: https://github.com/lewinfox/levitate/issues
 Depends: R (>= 2.10)
 Imports: rlang, stringdist
-Suggests: glue, knitr, pkgdown, rmarkdown, styler, testthat
+Suggests: glue, knitr, pkgdown, rmarkdown, stringi, testthat
 VignetteBuilder: knitr
 Encoding: UTF-8
 Language: en-GB
 LazyData: true
-RoxygenNote: 7.2.3
+RoxygenNote: 7.3.2
 NeedsCompilation: no
-Packaged: 2023-09-30 23:43:43 UTC; lewin
+Packaged: 2025-09-14 21:15:00 UTC; lewin
 Author: Lewin Appleton-Fox [aut, cre, cph]
 Maintainer: Lewin Appleton-Fox <lewin.a.f@gmail.com>
 Repository: CRAN
-Date/Publication: 2023-10-01 00:00:02 UTC
+Date/Publication: 2025-09-14 21:30:02 UTC

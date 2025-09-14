@@ -17,13 +17,30 @@ unlike [fuzzywuzzyR](https://github.com/mlampros/fuzzywuzzyR),
 `reticulate` or Python. It also offers a couple of extra bells and
 whistles in the form of vectorised functions.
 
-View the docs at <https://www.lewinfox.com/levitate/>.
+View the docs at <https://lewinfox.com/levitate/>.
 
 ## Why “`levitate`”?
 
 A common measure of string similarity is the [**Lev**enshtein
 distance](https://en.wikipedia.org/wiki/Levenshtein_distance), and the
 name was available on CRAN.
+
+**NOTE** The default distance metric is Optimal String Alignment (OSA),
+not Levenshtein distance. This is the default method used by the
+`stringdist` package, which `levitate` uses for distance calculations.
+OSA allows transpositions whereas Levenshtein distance does not. To use
+Levenshtein distance pass `method = "lv"` to any `lev_*()` functions.
+
+``` r
+lev_distance("01", "10") # Transpositions allowed by the default `method = "osa"`
+#> [1] 1
+
+lev_distance("01", "10", method = "lv") # No transpositions
+#> [1] 2
+```
+
+A full list of distance metrics is available in
+`help("stringdist-metrics", package = stringdist)`.
 
 ## Installation
 
